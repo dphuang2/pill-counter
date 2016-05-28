@@ -53,3 +53,10 @@ Helpers
 <ul>
 <li> basically a file to define functions that can be used throughout the application </li>
 </ul>
+
+Integration Test
+<ul>
+<li> normal test using assert_select to check for HTML elements. </li> 
+<li> can be created using "rails generate integration_test site_layout" [takes the name of site_layout_test] </li>
+<li> is found in test\integration\ </li>
+</ul>
