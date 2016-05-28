@@ -1,0 +1,12 @@
+<header class="navbar navbar-fixed-top navbar-inverse">
+  <div class="container">
+    <%= link_to "sample app", 'root_path', id: "logo" %> # note root_path is used from the routes folder that is created from get 'static_pages#home' line
+    <nav>
+      <ul class="nav navbar-nav navbar-right">
+        <li><%= link_to "Home",   'root_path' %></li>
+        <li><%= link_to "Help",   'help_path' %></li> # same idea for help_path except this is created from: [  get 'help' => 'static_pages#help'  ]
+        <li><%= link_to "Log in", '#' %></li>
+      </ul>
+    </nav>
+  </div>
+</header>
