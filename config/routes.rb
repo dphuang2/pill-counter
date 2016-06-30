@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'users/new'
+    get 'users/new'
 
     # get a specific "view" from the views folder under static_pages controller
     # get 'static_pages/home'
