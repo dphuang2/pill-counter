@@ -30,7 +30,7 @@ erb
 <li> syntax: <%= ... %> for outputting html code from ruby or <% ... %> for just running ruby code </li>
 </ul>
 
-FEN
+File Extension Name
 <ul>
 <li> .css.scsss </li>
 <li> .js.coffee </li>
