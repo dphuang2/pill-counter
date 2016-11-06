@@ -22,6 +22,7 @@ module SessionsHelper
     # 3) Put signed user_id in cookies 
     #   .signed encrypts it in the cookies
     # 4) Put remember_token attribute of User model in cookes to be Digested later and compared with the token in the database
+    #   4.a) It is later compared in the current_user function
     def remember(user)
         user.remember
         cookies.permanent.signed[:user_id] = user.id
